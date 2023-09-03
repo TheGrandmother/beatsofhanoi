@@ -1,0 +1,39 @@
+{
+  "name": "stackthing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elemaudio/core": "^2.1.0",
+    "@elemaudio/web-renderer": "^2.1.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "ansi-escapes": "^6.2.0",
+    "ansi-styles": "^6.2.1",
+    "create-react-app": "^5.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsc": "^2.0.4",
+    "typescript-language-server": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/midi": "^2.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

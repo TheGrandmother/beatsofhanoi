@@ -1,0 +1,90 @@
+body {
+  background-color: #1a1c13;
+}
+
+.stack {
+  width: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cell {
+  //background-color: pink;
+  min-width: 1em;
+  max-width: 1em;
+  min-height: 1em;
+  text-align: center;
+}
+
+.world {
+  display: flex;
+  min-height: 20em;
+}
+
+
+.traveler {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  min-width: 1.1em;
+  min-height: 1.1em;
+}
+
+.travelerHead {
+  width: 1.1em;
+  height: 0.3em;
+}
+
+.travelerCarru {
+  width: 1.1em;
+  height: 0.3em;
+  background-color: #cfaff0;
+}
+
+.travelerPile {
+  margin-bottom: 0.1em;
+  min-height: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.stackHistory {
+  .cell {
+    min-width: .2em;
+    max-width: .2em;
+    min-height: .2em;
+  }
+  .stackHistoryEntry{
+    display: flex;
+  }
+}
+
+.meh {
+  display: flex;
+  padding: 5em;
+  justify-content: space-around;
+}
+
+.config {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  align-items: center;
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  span {
+    color: #efffa0
+  }
+  
+  button {
+    min-width:10em;
+  }
+}
